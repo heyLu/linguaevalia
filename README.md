@@ -8,7 +8,7 @@ Just write the code.
 
 ## Quickstart
 
-* `go get github.com/heyLu/lp/go/linguaevalia`
+* `go get github.com/heyLu/linguaevalia`
 * `$GOPATH/bin/linguaevalia`
 * visit <http://localhost:8000> and start writing code (press `ctrl-enter`
     to run the code)
@@ -61,10 +61,10 @@ inferred from the extension, but you can override it with `-l` if you want.
 ## Development setup
 
 ```
-~ $ git clone git://github.com/heyLu/lp
-~ $ cd lp/go/linguaevalia
-~/lp/go/linguaevalia $ make               # download codemirror
-~/lp/go/linguaevalia $ go run
+~ $ git clone git://github.com/heyLu/linguaevalia
+~ $ cd linguaevalia
+~/linguaevalia $ make               # download codemirror
+~/linguaevalia $ go run
 ```
 
 Alternatively, replace `go run` with `qst linguaevalia.go`, to restart
