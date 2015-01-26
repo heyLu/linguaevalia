@@ -49,6 +49,7 @@ server:
 ```
 $ linguaevalia run hello-world.rb
 Hello, World!
+
 # or alternatively:
 $ cat hello-world.rb | linguaevalia run -l ruby
 Hello, World!
